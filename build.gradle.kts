@@ -36,8 +36,8 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["java"])
-//                groupId = "com.github.Toofan-Soft"
-                groupId = "com.toofan.soft.school.api"
+                groupId = "com.github.Toofan-Soft"
+//                groupId = "com.toofan.soft.school.api"
                 artifactId = "school-api"
                 version = "1.0"
             }
