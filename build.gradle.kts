@@ -25,7 +25,6 @@ sourceSets {
     }
 }
 
-
 afterEvaluate {
     publishing {
         publications {
@@ -38,4 +37,3 @@ afterEvaluate {
         }
     }
 }
-
