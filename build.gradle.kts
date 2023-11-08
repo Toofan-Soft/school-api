@@ -4,18 +4,11 @@ plugins {
 }
 
 group = "com.toofan.soft.school.api"
-//version = "1.0-SNAPSHOT"
-//group = "com.github.Toofan-Soft"
 version = "1.0"
 
 repositories {
     mavenCentral()
 }
-
-//java {
-//    sourceCompatibility = JavaVersion.VERSION_17
-//    targetCompatibility = JavaVersion.VERSION_17
-//}
 
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
