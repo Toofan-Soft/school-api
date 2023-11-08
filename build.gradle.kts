@@ -3,9 +3,9 @@ plugins {
     id("maven-publish")
 }
 
-//group = "com.toofan.soft.school.api"
+group = "com.toofan.soft.school.api"
 //version = "1.0-SNAPSHOT"
-group = "com.github.Toofan-Soft"
+//group = "com.github.Toofan-Soft"
 version = "1.0"
 
 repositories {
@@ -13,8 +13,8 @@ repositories {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_16
-    targetCompatibility = JavaVersion.VERSION_16
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 dependencies {
