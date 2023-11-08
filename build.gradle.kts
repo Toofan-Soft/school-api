@@ -6,13 +6,14 @@ plugins {
 group = "com.toofan.soft.school.api"
 version = "1.0-SNAPSHOT"
 
-//java {
-//    sourceCompatibility = JavaVersion.VERSION_21
-//    targetCompatibility = JavaVersion.VERSION_21
-//}
-
 repositories {
     mavenCentral()
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(21))
+    }
 }
 
 dependencies {
@@ -37,10 +38,8 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["java"])
                 groupId = "com.github.Toofan-Soft"
-//                groupId = "com.toofan.soft.school.api"
                 artifactId = "school-api"
                 version = "1.0"
-//                version = project.version.toString()
             }
         }
     }
