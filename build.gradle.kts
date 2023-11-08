@@ -3,9 +3,10 @@ plugins {
     id("maven-publish")
 }
 
-group = "com.toofan.soft.school.api"
-version = "1.0"
+//group = "com.toofan.soft.school.api"
 //version = "1.0-SNAPSHOT"
+group = "com.github.Toofan-Soft"
+version = "1.0"
 
 repositories {
     mavenCentral()
