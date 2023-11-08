@@ -6,9 +6,14 @@ plugins {
 group = "com.toofan.soft.school.api"
 version = "1.0-SNAPSHOT"
 
-java {
-    sourceCompatibility = JavaVersion.VERSION_21
-    targetCompatibility = JavaVersion.VERSION_21
+//java {
+//    sourceCompatibility = JavaVersion.VERSION_21
+//    targetCompatibility = JavaVersion.VERSION_21
+//}
+
+tasks.withType<JavaCompile> {
+    sourceCompatibility = JavaVersion.VERSION_21.toString()
+    targetCompatibility = JavaVersion.VERSION_21.toString()
 }
 
 
