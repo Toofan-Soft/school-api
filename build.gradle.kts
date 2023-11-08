@@ -7,8 +7,8 @@ group = "com.toofan.soft.school.api"
 version = "1.0-SNAPSHOT"
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_16 // Use the Java version you want to support
-    targetCompatibility = JavaVersion.VERSION_16 // Use the Java version you want to target
+    sourceCompatibility = JavaVersion.VERSION_21 // Use the Java version you want to support
+    targetCompatibility = JavaVersion.VERSION_21 // Use the Java version you want to target
 }
 
 repositories {
