@@ -39,7 +39,8 @@ afterEvaluate {
                 groupId = "com.github.Toofan-Soft"
 //                groupId = "com.toofan.soft.school.api"
                 artifactId = "school-api"
-                version = "1.0"
+//                version = "1.0"
+                version = project.version.toString()
             }
         }
     }
