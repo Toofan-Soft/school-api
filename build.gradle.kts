@@ -12,11 +12,10 @@ repositories {
     mavenCentral()
 }
 
-//java {
-//    toolchain {
-//        languageVersion.set(JavaLanguageVersion.of(21))
-//    }
-//}
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
 
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
